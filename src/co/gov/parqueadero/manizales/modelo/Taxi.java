@@ -20,6 +20,27 @@ public class Taxi extends TransportePublico implements Serializable{
         this.valorCupo = valorCupo;
         this.tipoOperacion = tipoOperacion;
     }
+
+    public double getValorCupo() {
+        return valorCupo;
+    }
+
+    public void setValorCupo(double valorCupo) {
+        this.valorCupo = valorCupo;
+    }
+
+    public String getTipoOperacion() {
+        return tipoOperacion;
+    }
+
+    public void setTipoOperacion(String tipoOperacion) {
+        this.tipoOperacion = tipoOperacion;
+    }
+
+    @Override
+    public String toString() {
+        return "Taxi{" + "valorCupo=" + valorCupo + ", tipoOperacion=" + tipoOperacion + '}';
+    }
     
     
     
